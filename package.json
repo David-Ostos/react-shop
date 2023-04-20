@@ -13,7 +13,7 @@
     "build": "webpack --mode production",
     "homepage": "https://david-ostos.github.io/reactPractico",
     "predeploy":"npm run build",
-    "deploy": "gh-pages -b main -d dist"
+    "deploy": "gh-pages -b build"
   },
   "keywords": [
     "react",
