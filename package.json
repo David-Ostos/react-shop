@@ -11,9 +11,9 @@
   "scripts": {
     "start": "webpack serve --open",
     "build": "webpack --mode production",
-    "homepage": "https://david-ostos.github.io/reactPractico",
+    "homepage": "https://david-ostos.github.io/react-shop/",
     "predeploy":"npm run build",
-    "deploy": "gh-pages -b build"
+    "deploy": "gh-pages -b main -d dist"
   },
   "keywords": [
     "react",
